@@ -49,6 +49,7 @@ Tags.propTypes = {
             frontmatter: PropTypes.shape({
               title: PropTypes.string.isRequired,
               slug: PropTypes.string.isRequired,
+              tag: PropTypes.string.isRequired,
             }),
           }),
         }).isRequired,
@@ -72,6 +73,7 @@ export const pageQuery = graphql`
           frontmatter {
             title
             slug
+            tags
           }
         }
       }
