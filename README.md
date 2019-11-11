@@ -6,4 +6,4 @@
 
 ![main page](./index.png)
 
-- ISSUE: In progress ti fix cdn issue of apollo-graphql
+- ISSUE: In progress to fix cdn issue of apollo-graphql
