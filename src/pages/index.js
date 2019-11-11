@@ -6,5 +6,12 @@ import Sider from '../components/post-sider'
 
 export default () => {
   const posts = usePosts()
-  return <Layout></Layout>
+  return (
+    <Layout>
+      <h1>
+        Hi, I'm Bae, a developer who is learning and growing everyday. I hope
+        you enjoy my posts and docs. Feel free to explore!
+      </h1>
+    </Layout>
+  )
 }

@@ -49,13 +49,13 @@ const Header = () => (
             <span className="navbar-item">
               <strong>{'='}</strong>
             </span>
-            <a className="navbar-item" href="https://bulma.io">
+            <Link className="navbar-item" href="/">
               <img
                 src="https://bulma.io/images/bulma-logo.png"
                 width="112"
                 height="28"
               />
-            </a>
+            </Link>
           </div>
         </div>
         <div className="navbar-brand"></div>
